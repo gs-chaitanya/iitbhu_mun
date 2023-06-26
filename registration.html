@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delegate Registration - IIT BHU Model United Nations 2023</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <a href="index.html" class="mdl-layout__logo">
+          <img src="https://www.iitbhumun.com/images/active-nav-log.svg" alt="Logo" class="logo-img">
+        </a>
+        <span class="mdl-layout-title">IIT BHU MUN 2023</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html">Home</a>
+          <a class="mdl-navigation__link" href="#">Schedule</a>
+          <a class="mdl-navigation__link" href="#">Committees</a>
+          <a class="mdl-navigation__link" href="#">About</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="mdl-layout__content">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset">
+          <div class="registration-form">
+            <h2 class="mdl-typography--title">Delegate Registration</h2>
+            <form id="registration-form">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="name" name="name" required>
+                <label class="mdl-textfield__label" for="name">Name</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="number" id="age" name="age" required>
+                <label class="mdl-textfield__label" for="age">Age</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sex" name="sex" required>
+                <label class="mdl-textfield__label" for="sex">Sex</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="institution" name="institution" required>
+                <label class="mdl-textfield__label" for="institution">Institution</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" id="committee" name="committee" required>
+                  <option value="committee1">Committee 1</option>
+                  <option value="committee2">Committee 2</option>
+                  <option value="committee3">Committee 3</option>
+                </select>
+                <label class="mdl-textfield__label" for="committee">Committee</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="email" id="email" name="email" required>
+                <label class="mdl-textfield__label" for="email">Email ID</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="tel" id="phone" name="phone" required>
+                <label class="mdl-textfield__label" for="phone">Phone Number</label>
+              </div>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

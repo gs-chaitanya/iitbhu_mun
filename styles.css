@@ -1,0 +1,65 @@
+.mdl-layout__header {
+  background-color: #3f51b5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.mdl-layout__title {
+  font-size: 24px;
+}
+
+.mdl-navigation__link {
+  color: #fff;
+}
+
+.mdl-navigation__link.register-button {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.mdl-navigation__link.register-button i.material-icons {
+  margin-right: 8px;
+}
+
+.mdl-layout__content {
+  padding: 24px;
+}
+
+.mdl-typography--display-4 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.mdl-typography--display-2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.mdl-typography--headline {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: center;
+  
+}
+  
+.mdl-typography--body-1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.mdl-layout__logo {
+  margin-right: 82px;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+}
